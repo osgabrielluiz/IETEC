@@ -72,12 +72,13 @@ section.sobre{
     height: 1200px;
     border-radius: 50%;
     background-color: #003f5c;
-    
+    margin-top: -2%;
 }
 
-#money_icon{
+#predio_icon{
     width: 40%;
-    margin-top: 5%;
+    margin-top: -6%;
+    margin-left: -5%;
 }
 
 
@@ -89,7 +90,8 @@ section.sobre{
 .texto_sobre{
     color: black;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 1%;
+    margin-left: 5%;
 }
 
 .texto_sobre h1{
@@ -159,4 +161,11 @@ section.sobre{
 .login button:hover{
     background-color: #003f5c;
     color: white;
+}
+
+/* Inputs do login */
+.input_do_login{
+    padding: 0.3%;
+    border-radius: 10px;
+    
 }

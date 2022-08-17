@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/teste.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+    <title>Planejamento Empresa</title>
+</head>
+
+<body>
+    <main>
+        <p>Data: </p>
+        <input type="text" id="calendario" />
+
+        <script>
+            $(function() {
+                $("#calendario").datepicker({
+                    changeMonth: true,
+                    changeYear: true,
+                    dateFormat: 'dd/mm/yy',
+                    dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
+                    dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+                    dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+                    monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+                    monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
+                });
+                showButtonPanel:true
+            });
+        </script>
+
+        <div id="pesquisa_table">
+            <h4>Pesquisa</h4>
+            <input type="text" id="pesquisa_input">
+            <br><br>
+            <input type="checkbox">
+            <label for="">Tecnologias</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Capital</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Mercado</label>
+        </div>
+
+        <!--tabela-->
+        <aside id="aside_table">
+            <table id="tab_planejamento">
+                <tr>
+                    <th></th>
+                    <th>empresa</th>
+                    <th>tipo</th>
+                    <th>assunto</th>
+                    <th>acoes</th>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </aside>
+</body>
+
+</html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/style.css
 /* Cores:
         1. #003f5c
         2. #4c86af
@@ -177,3 +178,55 @@ section.sobre{
 }
 
 /* Quem somos */
+=======
+body {
+    background-color: lightgray;
+}
+
+/* Planejamento */
+
+#calendario {
+    margin-bottom: 245px;
+}
+
+#pesquisa_table {
+    position: absolute;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 49px;
+    padding-top: 5px;
+    padding-bottom: 115px;
+    width: 250px;
+    background-color: white;
+}
+
+#tab_planejamento {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 600px;
+    color: black;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+#tab_planejamento th{
+    border-bottom-style: solid;
+    border-bottom-color: rgb(146, 146, 255);
+    border-bottom-width: 3px;
+    position: sticky;
+}
+#tab_planejamento td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:hover {background-color: rgb(234, 234, 255)}
+
+#aside_table{
+    width: 64%;
+    margin-top: -5%;
+    float: right;
+}
+>>>>>>> GabrielSouzaVerly:css/teste.css

@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/teste.css">
-    <title>IETEC - Login</title>
+    <link rel="stylesheet" href="/style.css">
+    <title>Login</title>
 </head>
-<body>
+<body id="body_login">
+
     
-    <div class="login">
-        <a href="/index.html"><img id="login_img" src="/img/ietec_logo.png" alt="Logo da IETEC"></a>
-        <form action="#">
-            <input class="input_do_login" type="text"><br>
-            <input class="input_do_login" type="password" name="" id=""><br>
-            <button><a href="/html/dashboard.html">Login</a></button>
-        </form>
-    </div>
+    <form class="login_form" action="selecao.html">
+        <a href="/index.html">
+            <img src="/img/ietec_logo.png" alt="Logo da IETEC">
+        </a>
+        <h2>Bem Vindo(a)!</h2>
+
+    <label for="fname">Email</label>
+    <input type="text" id="email_login">
+    <label for="lname">Senha</label>
+    <input type="password" id="senha_login">
+    <input id="botao_login" type="submit" value="Entrar">
+    
+</form>
 
 </body>
 </html>

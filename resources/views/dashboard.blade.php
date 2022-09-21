@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='css/dashboard.css' rel="stylesheet" type="text/css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
-    <script src="/dash.js" defer></script>
     <title>Dashboard - IETEC</title>
 </head>
 
@@ -15,7 +13,7 @@
 
     <header>
         <a href="#">
-            <img id="LogoIetec" src="/images/logoietec.png">
+            <img id="LogoIetec" src="/img/ietec_logo.png">
         </a>
         <nav id="Navegacao">
             <ul id="NavegacaoUl">
@@ -53,18 +51,18 @@
 
         <section id="trofeu">
             <figure id="">
-                <img src="/images/trofeu.png" alt="">
-                <img src="/images/trofeu.png" alt="">
-                <img src="/images/trofeu.png" alt="">
-                <img src="/images/trofeu.png" alt="">
-                <img src="/images/trofeu.png" alt="">
-                <img src="/images/trofeu.png" alt="">
+                <img src="/img/trofeu1.png" alt="">
+                <img src="/img/trofeu1.png" alt="">
+                <img src="/img/trofeu1.png" alt="">
+                <img src="/img/trofeu1.png" alt="">
+                <img src="/img/trofeu1.png" alt="">
+                <img src="/img/trofeu1.png" alt="">
+                <img src="/img/trofeu1.png" alt="">
             </figure>
         </section>
     </main>
-
-
-
 </body>
+<script src="/js/chart.js"></script>
+<script src="/js/dash.js"></script>
 
 </html>

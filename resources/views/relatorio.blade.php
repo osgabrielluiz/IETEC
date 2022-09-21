@@ -43,7 +43,7 @@
                     <td><button class="lixeira" type="submit">Apagar</button></td>
                 </tr>
             </table>
-            <button id="gerar" type="submit">Gerar Relatório</button>
+            <input id="gerar" type="submit">Gerar Relatório</button>
         </div>
     </main>
 </body>
